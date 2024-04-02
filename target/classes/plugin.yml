@@ -1,0 +1,98 @@
+name: LifeTheft
+version: 1.0
+author: Clawara
+main: fr.clawara.lifesteal.main.Main
+api-version: 1.20
+folia-supported: true
+
+softdepend: [PlaceholderAPI]
+
+commands:
+
+  graceperiod:
+    description: /gp remove removes your grace period and allows you to pvp. /gp tells you the time left for your grace period.
+    aliases: [gp]
+    
+  combattag:
+    description: tells you for how long you are still in combat.
+    aliases: [ct]
+
+  scoreboardvisibility:
+    description: toggles the scoreboard.
+    aliases: [sbv,sbvisibility]
+
+  scoreboardmanager:
+    description: allows you to configure your informations on your scoreboard.
+    aliases: [sbm,scoreboardmanage,sbmanager,sbmanage]
+
+  gotolifesteal:
+    description: teleports you to your previous location in the lifesteal world.
+
+  daily:
+    description: gives you a daily award, you can chose between a heart and a random gift.
+
+  respawn:
+    description: <bed/spawn> allows you to set your respawn location preferences.
+
+  bed:
+    description: /bed teleports you to your respawn point (bed or anchor).
+
+  spawn:
+    description: teleports you to spawn.
+
+  tpa:
+    description: <Player> allows you to send a teleport request to a player.
+
+  tpaccept:
+    description: allows you to accept a teleport request.
+    aliases: [tpyes]
+
+  tpdeny:
+    description: allows you to deny a teleport request.
+    aliases: [tpno]
+
+  rtp:
+    description: teleports you in a random location.
+
+  mod:
+    description: moderation command.
+
+  resethearts:
+    description: admin command.
+
+  sethearts:
+    description: admin command.
+
+  unban:
+    description: admin command.
+
+  ban:
+    description: admin command.
+
+  mute:
+    description: admin command.
+
+  unmute:
+    description: admin command.
+
+  sendmessagediscord:
+    description: admin command.
+
+  sendmessagetodiscordmembers:
+    description: admin command.
+
+  sendmessagetoseasonmembers:
+    description: admin command.
+
+  endseason:
+    description: admin command.
+
+  resetlifestealdata:
+    description: admin command.
+
+  setArenaStructure:
+    description: admin command.
+
+  resetArena:
+    description: admin command.
+
